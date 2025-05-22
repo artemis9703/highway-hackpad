@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "documentation": "This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\n",
+  "keyboard": "handwired/6macro",
+  "keymap": "hackpad",
+  "layout": "LAYOUT",
+  "layers": [
+    [
+      "KC_MPLY",
+      "KC_VOLU",
+      "KC_VOLD",
+      "KC_MPRV",
+      "KC_MNXT",
+      "KC_CALC"
+    ],
+    [
+      "ANY(UG_TOGG)",
+      "ANY(UG_NEXT)",
+      "KC_TRNS",
+      "ANY(UG_HUEU)",
+      "ANY(UG_VALU)",
+      "MO(2)"
+    ],
+    [
+      "QK_BOOT",
+      "ANY(UG_PREV)",
+      "KC_NO",
+      "ANY(UG_HUED)",
+      "ANY(UG_VALD)",
+      "KC_TRNS"
+    ]
+  ],
+  "author": "",
+  "notes": ""
+}
